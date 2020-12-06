@@ -27,12 +27,12 @@ public class OrderSystem {
                 repositoryCustomer.Create(customer2);
                 repositoryCustomer.Create(customer3);
                 
-                Product product1 = new Product(1110, "Books", 5, 5000);
-                Product product2 = new Product(1111, "Paint Ball", 7, 6000);
-                Product product3 = new Product(1112, "Movies", 9, 7000);
-                Product product4 = new Product(1113, "Fishing", 11, 8000);
-                Product product5 = new Product(1114, "Sports", 13, 9000);
-                Product product6 = new Product(1115, "GoKarting", 15, 10000);
+                Product product1 = new Product(1110, "Books", 1, 200);
+                Product product2 = new Product(1111, "Paint Ball", 2, 300);
+                Product product3 = new Product(1112, "Movies", 3, 100);
+                Product product4 = new Product(1113, "Fishing", 4, 1000);
+                Product product5 = new Product(1114, "Sports", 5, 1200);
+                Product product6 = new Product(1115, "GoKarting", 6, 1400);
                 
                 repositoryProduct.Create(product1);
                 repositoryProduct.Create(product2);
